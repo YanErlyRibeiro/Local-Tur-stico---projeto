@@ -17,9 +17,10 @@ body {
 #page {
   width: 1120px;
   margin: 48px auto 46px;
+  
 }
 
-#introdution span {
+.headline {
   color: #E1624F;
   text-transform: uppercase;
   font-weight: 700;
@@ -33,24 +34,50 @@ h1 {
   font-weight: 700;
   font-size: 36px;
   line-height: normal;
+  margin-bottom: 44px;
+}
+
+section img {
+  border-radius: 28px;
 }
 
 #introdution img + p {
   font-size: 16px;
   font-weight: 400;
   font-style: italic;
+  margin-top: 24px;
+  text-align: center;
+  color: var(--text-gray);
+}
+
+#content-list{
+  margin-top: 44px;
+  padding-top: 64px;
+  border-top: 1px #D9D9D9 solid;
 }
 
 h2 {
   font-weight: 700;
   font-size: 32px;
+  margin-bottom: 8px;
+  
+}
+
+section h2 + p {
+  margin-bottom: 64px;
+  color: var(--text-gray);
 }
 
 h3 {
   font-size: 28px;
   font-weight: 700;
   color: var(--text-primary);
+  margin-left: 10px;
+  margin-top: 20px;
+}
 
+.content-card {
+ margin-bottom: 48px;
 }
 
 .content-card p {
@@ -58,34 +85,54 @@ h3 {
   font-weight: 400;
 }
 
+ 
 .content-card ul {
-  font-size: 16px; 
+  font-size: 10px; 
   font-weight: 700; 
 }
 .content-card ul p {
   color: var(--text-gray);
   font-weight: 700;
+  font-size: 16px;
+  margin-top: 24px;
+}
+
+li {
+ margin-left: 24px;
 }
 
 .content-card ul li .history{
  color: #0C51A7;
- font-weight: 16px;
+ font-size: 16px;
  font-weight: 700;
+ 
 }
 
 .content-card ul li .casais {
  color: #591B98;
+ font-size: 16px;
 }
+
 
 .content-card ul li .familias{
   color: #E5245E;
+  font-size: 16px;
 }
 
 .content-card ul li .orçamento {
    color: #E95E10;
+   font-size: 16px;
 }
 
+#conclusion {
+  border-top: 1px #D9D9D9 solid;
+  padding-top: 44px;
+}
 
+#conclusion p {
+  text-align: center;
+  
+}
 
 footer {
   font-family: "Alice", serif;  
@@ -93,4 +140,11 @@ footer {
   font-weight: 400;
   font-size: 16px;
   line-height: 150%;
+  text-align: center;
+  margin: 65px auto 48px;
+}
+
+footer img {
+  vertical-align: middle;
+  border-radius: 0;
 }
