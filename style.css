@@ -4,3 +4,82 @@
   box-sizing: border-box;
 }
 
+:root {
+  --text-primary: #1B1B1B;
+  --text-gray: #333;
+}
+
+body {
+  background-color: #F5F4F0;
+  font-family: "Open Sans", sans-serif;
+}
+
+#page {
+  width: 1120px;
+  margin: 48px auto 46px;
+}
+
+span {
+  color: #E1624F;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+h1, h2, h3 {
+  color: var(--text-primary)
+}
+
+h1 {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: normal;
+}
+
+#introdution img + p {
+  font-size: 16px;
+  font-weight: 400;
+  font-style: italic;
+}
+
+h2 {
+  font-weight: 700;
+  font-size: 32px;
+}
+
+h3 {
+  font-size: 28px;
+  font-weight: 700;
+  color: var(--text-primary);
+
+}
+
+.content-card p {
+  color: var(--text-gray);
+  font-weight: 400;
+}
+
+.content-card ul {
+  font-size: 16px;
+  font-weight: 700; 
+}
+.content-card ul p {
+  color: var(--text-gray);
+}
+
+.history {
+
+}
+
+.casais {
+
+}
+
+
+
+footer {
+  font-family: "Alice", serif;  
+  color: var(--text-gray);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+}
