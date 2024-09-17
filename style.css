@@ -19,7 +19,7 @@ body {
   margin: 48px auto 46px;
 }
 
-span {
+#introdution span {
   color: #E1624F;
   text-transform: uppercase;
   font-weight: 700;
@@ -59,19 +59,30 @@ h3 {
 }
 
 .content-card ul {
-  font-size: 16px;
+  font-size: 16px; 
   font-weight: 700; 
 }
 .content-card ul p {
   color: var(--text-gray);
+  font-weight: 700;
 }
 
-.history {
-
+.content-card ul li .history{
+ color: #0C51A7;
+ font-weight: 16px;
+ font-weight: 700;
 }
 
-.casais {
+.content-card ul li .casais {
+ color: #591B98;
+}
 
+.content-card ul li .familias{
+  color: #E5245E;
+}
+
+.content-card ul li .orçamento {
+   color: #E95E10;
 }
 
 
